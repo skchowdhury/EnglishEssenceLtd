@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mustofa.englishessence"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\mostafa\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\mostafa\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\mostafa\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\mostafa\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\mostafa\app\src\main\AndroidManifest.xml:6:5-44:19
+14        android:allowBackup="true"
+14-->C:\mostafa\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c9fbe60407e0b0302c1b8a5800cf7ad8\core-1.3.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\mostafa\app\src\main\AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->C:\mostafa\app\src\main\AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\mostafa\app\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->C:\mostafa\app\src\main\AndroidManifest.xml:11:9-35
+21        android:theme="@style/AppTheme" >
+21-->C:\mostafa\app\src\main\AndroidManifest.xml:12:9-40
+22        <activity
+22-->C:\mostafa\app\src\main\AndroidManifest.xml:13:9-21:20
+23            android:name="com.mustofa.englishessence.FbGroup"
+23-->C:\mostafa\app\src\main\AndroidManifest.xml:14:13-36
+24            android:label="@string/title_activity_fb_group"
+24-->C:\mostafa\app\src\main\AndroidManifest.xml:15:13-60
+25            android:parentActivityName="com.mustofa.englishessence.MainActivity"
+25-->C:\mostafa\app\src\main\AndroidManifest.xml:16:13-55
+26            android:theme="@style/AppTheme.NoActionBar" >
+26-->C:\mostafa\app\src\main\AndroidManifest.xml:17:13-56
+27            <meta-data
+27-->C:\mostafa\app\src\main\AndroidManifest.xml:18:13-20:75
+28                android:name="android.support.PARENT_ACTIVITY"
+28-->C:\mostafa\app\src\main\AndroidManifest.xml:19:17-63
+29                android:value="com.mustofa.englishessence.MainActivity" />
+29-->C:\mostafa\app\src\main\AndroidManifest.xml:20:17-72
+30        </activity>
+31        <activity
+31-->C:\mostafa\app\src\main\AndroidManifest.xml:22:9-30:20
+32            android:name="com.mustofa.englishessence.ProductDetails"
+32-->C:\mostafa\app\src\main\AndroidManifest.xml:23:13-43
+33            android:label="@string/title_activity_product_details"
+33-->C:\mostafa\app\src\main\AndroidManifest.xml:24:13-67
+34            android:parentActivityName="com.mustofa.englishessence.MainActivity"
+34-->C:\mostafa\app\src\main\AndroidManifest.xml:25:13-55
+35            android:theme="@style/AppTheme.NoActionBar" >
+35-->C:\mostafa\app\src\main\AndroidManifest.xml:26:13-56
+36            <meta-data
+36-->C:\mostafa\app\src\main\AndroidManifest.xml:18:13-20:75
+37                android:name="android.support.PARENT_ACTIVITY"
+37-->C:\mostafa\app\src\main\AndroidManifest.xml:19:17-63
+38                android:value="com.mustofa.englishessence.MainActivity" />
+38-->C:\mostafa\app\src\main\AndroidManifest.xml:20:17-72
+39        </activity>
+40        <activity
+40-->C:\mostafa\app\src\main\AndroidManifest.xml:31:9-40:20
+41            android:name="com.mustofa.englishessence.MainActivity"
+41-->C:\mostafa\app\src\main\AndroidManifest.xml:32:13-41
+42            android:label="@string/app_name"
+42-->C:\mostafa\app\src\main\AndroidManifest.xml:33:13-45
+43            android:theme="@style/AppTheme.NoActionBar" >
+43-->C:\mostafa\app\src\main\AndroidManifest.xml:34:13-56
+44            <intent-filter>
+44-->C:\mostafa\app\src\main\AndroidManifest.xml:35:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\mostafa\app\src\main\AndroidManifest.xml:36:17-69
+45-->C:\mostafa\app\src\main\AndroidManifest.xml:36:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\mostafa\app\src\main\AndroidManifest.xml:38:17-77
+47-->C:\mostafa\app\src\main\AndroidManifest.xml:38:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->C:\mostafa\app\src\main\AndroidManifest.xml:41:9-43:58
+51            android:name="com.mustofa.englishessence.CartActivity"
+51-->C:\mostafa\app\src\main\AndroidManifest.xml:42:13-41
+52            android:parentActivityName="com.mustofa.englishessence.MainActivity" />
+52-->C:\mostafa\app\src\main\AndroidManifest.xml:43:13-55
+53    </application>
+54
+55</manifest>
